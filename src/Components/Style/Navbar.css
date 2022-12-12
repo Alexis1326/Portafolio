@@ -1,0 +1,21 @@
+.navbar{
+    background-color: #451C80;
+    display: flex;
+    justify-content: end;
+}
+
+.fa-github {
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 50px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.fa-linkedin{
+    color: white;
+    width: 50px;
+    margin-top: 5px;
+}
+

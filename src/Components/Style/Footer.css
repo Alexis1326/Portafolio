@@ -1,0 +1,23 @@
+.footer{
+    background-color: #2E2140;
+}
+
+.icon-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.fa-envelope{
+    color: white;
+}
+
+.tittle{
+    color: white;
+}
+
+h5{
+    color: white;
+}
