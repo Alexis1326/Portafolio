@@ -1,21 +1,40 @@
 .footer{
     background-color: #2E2140;
+    height: 200px;
+}
+.tittle{
+    display: flex;
+    justify-content: center;
+    color: white;
 }
 
 .icon-footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
+.linkedin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.github{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.gmail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 
 .fa-envelope{
     color: white;
-}
-
-.tittle{
-    color: white;
+    width: 30px;
 }
 
 h5{

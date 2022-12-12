@@ -16,10 +16,10 @@ const Footer = () => {
                     <i class="fa fa-github" aria-hidden="true"></i>
                     <h5>Alexis1326</h5>
                 </div>
-                <div class="gmail">
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
-                    <h5>alexis.naranjo1998@gmail.com</h5>
-                </div>
+            </div>
+            <div class="gmail">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <h5>alexis.naranjo1998@gmail.com</h5>
             </div>
         </div>
     )
