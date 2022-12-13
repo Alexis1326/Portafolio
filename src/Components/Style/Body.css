@@ -1,0 +1,55 @@
+.body{
+    background-color: #1D122C;
+}
+
+h1{
+    color: #D9303E;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+h3{
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+.div-btn{
+    display: flex;
+    justify-content: center;
+}
+.btn-contactame{
+    background-color: #D9303E;
+    border-radius: 60px;
+    height: 30px;
+    width: 150px;
+    border-color: #D9303E;
+}
+
+
+.block-top{
+    background-color: #DEC3FF;
+    height: 190px;
+    width: 550px;
+    margin-left: 5%;
+    margin-top: -20px;
+    border-radius: 20px;
+}
+
+.imag{
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 100px;
+    border-color: white;
+}
+    
+.cont-img{
+    background-color: #D9303E;
+    border-color: white;
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+}
+
