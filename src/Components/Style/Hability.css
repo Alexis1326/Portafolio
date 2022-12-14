@@ -1,72 +1,95 @@
-.my-hability{
+.myhability{
     background-color: #1D122C;
 }
 
-h1{
-    color: #D9303E;
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
+.tittle-hability{
+    color: white;
 }
 
-h3{
-    color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: center;
-    height: 50px;
-}
-
-.div-btn{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 20px;
-    
-}
-
-.btn-contactame{
+.btn-hability {
     position: relative;
-    font-size: 17px;
-    text-transform: uppercase;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
     text-decoration: none;
-    padding: 1em 2.5em;
-    display: inline-block;
-    border-radius: 6em;
-    transition: all .2s;
-    border: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
     font-family: inherit;
-    font-weight: 500;
-    color: rgb(255, 255, 255);
-    background-color: #D9303E;
-}
-
-.btn-contactame:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
    
-.btn-contactame:active {
-    transform: translateY(-1px);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+button.learn-more {
+    width: 12rem;
+    height: auto;
 }
    
-.btn-contactame::after {
+button.learn-more .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #282936;
+    border-radius: 1.625rem;
+}
+   
+button.learn-more .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+}
+   
+button.learn-more .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+}
+   
+button.learn-more .circle .icon.arrow::before {
+    position: absolute;
     content: "";
-    display: inline-block;
-    height: 100%;
-    width: 100%;
-    border-radius: 100px;
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+}
+   
+button.learn-more .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -1;
-    transition: all .4s;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: #282936;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
 }
    
-.btn-contactame::after {
-    background-color: #D9303E;
+button:hover .circle {
+    width: 100%;
 }
    
-.btn-contactame:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
-    opacity: 0;
+button:hover .circle .icon.arrow {
+    background: #fff;
+    transform: translate(1rem, 0);
+}
+   
+button:hover .button-text {
+    color: #fff;
 }

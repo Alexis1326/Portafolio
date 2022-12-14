@@ -1,8 +1,8 @@
 import React from 'react'
-import "../Style/Hability.css"
-const Hability = () => {
+
+const Tittle_and_log = () => {
   return (
-    <div className='my-hability'>
+    <div className='body'>        
         <div class="block-top">
             <div>
                 <h1>Alexis Naranjo Vargas</h1>
@@ -14,8 +14,13 @@ const Hability = () => {
                 </button>
             </div>
         </div>
+        <div class="block-button">
+            <div class="imag">
+                <img class="cont-img " src="../src/assets/logo blanco sin fondo.png"/>
+            </div>
+        </div>
     </div>
   )
 }
 
-export default Hability
+export default Tittle_and_log
