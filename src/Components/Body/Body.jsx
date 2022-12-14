@@ -10,21 +10,26 @@ const Body = () => {
                 <h3>Desarrollador full stack</h3>
             </div>
             <div class="div-btn">
-                <button class="btn-contactame">Contáctame</button>
+                <button class="btn-contactame"> Contáctame
+                    <span></span>
+                </button>
             </div>
         </div>
-        <div class="imag">
-            <img class="cont-img " src="../src/assets/logo blanco sin fondo.png"/>
+        <div class="block-button">
+            <div class="imag">
+                <img class="cont-img " src="../src/assets/logo blanco sin fondo.png"/>
+            </div>
+            <div class="div-btn">
+                <button class="btn-HMP">Mis Habilidades</button>
+            </div>
+            <div class="div-btn">
+                <button class="btn-HMP">Acerca de mi</button>
+            </div>
+            <div class="div-btn">
+                <button class="btn-HMP">Mis Proyectos</button>
+            </div>
         </div>
-        <div class="btn-hability">
-            <button>Mis Habilidades</button>
-        </div>
-        <div>
-            <button>Acerca de mi</button>
-        </div>
-        <div>
-            <button>Mis Proyectos</button>
-        </div>
+        
     </div>
   )
 }
